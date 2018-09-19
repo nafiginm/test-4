@@ -1,0 +1,104 @@
+body {
+	margin: 10px;
+}
+main {
+	width: 768px;
+	max-width: 1024px;
+	height: 1024px;
+	max-height: 100%;
+	margin: auto;
+	border: 2px solid #000;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.section {
+	width: 50%;
+	height: 87.5%;
+	border-bottom: 2px solid #000;
+}
+.arbitrary_text {
+	border-right: 2px solid #000;
+	overflow-y: scroll;
+}
+h1,h2,h3,h4 {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18px;
+	text-decoration: underline;
+}
+.arbitrary_text p {
+	margin: 0 10px;
+	font-size: 16px;
+}
+.registration_form {
+	padding: 10px;
+	position: relative;
+}
+input {
+	width: 80%;
+	display: block;
+	border: 1px solid #ADAEAD;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	outline: none;
+}
+.fa-car {
+	position: absolute;
+	right: 21.8%;
+	top: 16.4%;
+	background: #DEDFDE;
+	padding: 3px 5px;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	color: #313431;
+}
+.fa-map-marker-alt {
+	cursor: pointer;
+	position: absolute;
+	right: 29%;
+	top: 16.4%;
+	color: #313431;
+	background: #DEDFDE;
+	padding: 3px 5px;
+}
+.fa-times {
+	position: absolute;
+	color: #313431;
+}
+label[for=name] > .fa-times {
+	top: 4.2%;
+	right: 23%;
+}	
+label[for=surname] > .fa-times {
+	top: 10.5%;
+	right: 23%;
+}	
+label[for=city] > .fa-times {
+	top: 16.8%;
+	right: 37%;
+}	
+.registration_form button {
+	font-size: 20px;
+	margin-top: 10px;
+}
+.control_button {
+	width: 100%;
+	height: 12.5%;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+}
+.control_button button {
+	width: 25%;
+	height: 50%;
+	margin: auto 10% auto auto;
+	font-size: 28px;
+}
